@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wolkobml_diffusion2d"
+version = "0.0.3"
+description = "Solving the two-dimensional diffusion equation"
+keywords = ["simulation", "diffusion"]
+readme = "README.md"
+requires-python = ">=3.6"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Marcel Wolkober", email = "st163937@stud.uni-stuttgart.de" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = ["numpy", "matplotlib"]
+
+[project.urls]
+repository = "https://github.com/MarcelWolkober/diffusion2D"
